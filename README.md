@@ -20,8 +20,6 @@ The project moves from **data cleaning** ➝ **SQL queries** ➝ **R modeling** 
 
 ---
 
-## 📊 Business Questions Answered
-
 The project addresses a wide range of client-style questions, grouped by difficulty:
 
 ### ✅ Simple
@@ -72,9 +70,3 @@ The project addresses a wide range of client-style questions, grouped by difficu
 - Performed log transformation due to non-normality (confirmed with Shapiro test)
 - Compared model AIC before and after transformation
 - Interpreted statistical significance and practical impact
-
-### 🧪 Key R Outputs
-
-```R
-glm_model <- glm(log_total ~ Customer.type, data = my_data, family = gaussian())
-summary(glm_model)
