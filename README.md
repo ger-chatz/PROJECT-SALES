@@ -1,12 +1,12 @@
-# 🧮 SQL & R Business Analytics Project – Walmart Sales Data
+# SQL & R Business Analytics Project – Walmart Sales Data
 
-## 👤 Author
+##  Author
 
 **Gerasimos Chatzopoulos**
 
 ---
 
-## 📘 Project Overview
+##  Project Overview
 
 This personal project simulates a real-world business analytics workflow using **SQL** for data exploration and **R** for basic statistical modeling.  
 The dataset, based on a fictional retail chain named *WalmartSales*, was sourced from Kaggle and is used to mirror the typical tasks a data analyst might perform when answering business-oriented questions about:
@@ -36,7 +36,7 @@ The project addresses a wide range of client-style questions, grouped by difficu
 - Rank branches by sales within cities
 - Compare average unit price by gender
 
-### 🧠 Challenging
+### 🧠 Little Challenging
 - Calculate Customer Lifetime Value (CLV)
 - Build a Sales Performance Index (SPI) using weighted KPIs
 - Determine profit margins per product line
