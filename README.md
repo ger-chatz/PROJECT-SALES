@@ -22,7 +22,7 @@ The project moves from **data cleaning** ➝ **SQL queries** ➝ **R modeling** 
 
 The project addresses a wide range of client-style questions, grouped by difficulty:
 
-### ✅ Simple
+###  Simple
 - What is the most selling product line?
 - What is the most common payment method?
 - Which city generates the highest revenue?
@@ -30,20 +30,20 @@ The project addresses a wide range of client-style questions, grouped by difficu
 - Which gender buys the most?
 - And more...
 
-### ⚙️ Medium
+###  Medium
 - Top 3 best-selling product lines per branch
 - MoM sales growth rate
 - Rank branches by sales within cities
 - Compare average unit price by gender
 
-### 🧠 Little Challenging
+###  Little Challenging
 - Calculate Customer Lifetime Value (CLV)
 - Build a Sales Performance Index (SPI) using weighted KPIs
 - Determine profit margins per product line
 
 ---
 
-## 🧼 Data Cleaning Steps
+##  Data Cleaning Steps
 
 - Filled missing values using `COALESCE`
 - Removed duplicates by `invoice_id`
@@ -52,7 +52,7 @@ The project addresses a wide range of client-style questions, grouped by difficu
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 | Tool        | Purpose                                 |
 |-------------|-----------------------------------------|
@@ -64,7 +64,7 @@ The project addresses a wide range of client-style questions, grouped by difficu
 
 ---
 
-## 📈 R Modeling
+##  R Modeling
 
 - Used a Generalized Linear Model (GLM) to assess the impact of `Customer.type` on `Total` sales
 - Performed log transformation due to non-normality (confirmed with Shapiro test)
